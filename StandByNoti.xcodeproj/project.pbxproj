@@ -14,6 +14,7 @@
 		B25E30A72BA57307005F65D5 /* StandByNotiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25E30A62BA57307005F65D5 /* StandByNotiTests.swift */; };
 		B25E30B12BA57307005F65D5 /* StandByNotiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25E30B02BA57307005F65D5 /* StandByNotiUITests.swift */; };
 		B25E30B32BA57307005F65D5 /* StandByNotiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25E30B22BA57307005F65D5 /* StandByNotiUITestsLaunchTests.swift */; };
+		B25E30C32BA57A41005F65D5 /* NotificationWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25E30C22BA57A41005F65D5 /* NotificationWidgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B25E30AC2BA57307005F65D5 /* StandByNotiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandByNotiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25E30B02BA57307005F65D5 /* StandByNotiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandByNotiUITests.swift; sourceTree = "<group>"; };
 		B25E30B22BA57307005F65D5 /* StandByNotiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandByNotiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B25E30C22BA57A41005F65D5 /* NotificationWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationWidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		B25E30942BA57305005F65D5 /* StandByNoti */ = {
 			isa = PBXGroup;
 			children = (
+				B25E30C12BA57A25005F65D5 /* View */,
 				B25E30952BA57305005F65D5 /* StandByNotiApp.swift */,
 				B25E30972BA57305005F65D5 /* ContentView.swift */,
 				B25E30992BA57307005F65D5 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				B25E30B22BA57307005F65D5 /* StandByNotiUITestsLaunchTests.swift */,
 			);
 			path = StandByNotiUITests;
+			sourceTree = "<group>";
+		};
+		B25E30C12BA57A25005F65D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B25E30C22BA57A41005F65D5 /* NotificationWidgetView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B25E30982BA57305005F65D5 /* ContentView.swift in Sources */,
+				B25E30C32BA57A41005F65D5 /* NotificationWidgetView.swift in Sources */,
 				B25E30962BA57305005F65D5 /* StandByNotiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
